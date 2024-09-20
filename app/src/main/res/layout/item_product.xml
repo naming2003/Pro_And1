@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
+    android:background="@drawable/cos"
     android:padding="4dp"
     >
 
@@ -29,18 +30,21 @@
         android:id="@+id/textViewProductName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:textSize="22sp"
-        android:textStyle="bold"
         android:layout_marginLeft="10dp"
-        android:text="กางเกงขายาว" />
+        android:layout_marginTop="12dp"
+        android:background="@drawable/edit1"
+        android:text="กางเกงขายาว"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textViewPrice"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:textSize="18sp"
         android:layout_marginLeft="10dp"
-        android:text="$200" />
+        android:layout_marginTop="12dp"
+        android:text="$200"
+        android:textAlignment="center"
+        android:textSize="20sp" />
 </LinearLayout>
